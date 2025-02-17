@@ -88,16 +88,31 @@ div#container {
                 padding: 10px;
 
                 h2 {
-                    color: red;
+                    color: darkred;
                     font-weight: normal;
                     text-transform: uppercase;
                     border-bottom: 2px dotted red;
                 }
+
                 h3 {
-                    color:red;
                     font-weight: normal;
-                    text-transform: capitalize;
+                    text-transform: uppercase;
+                    text-align: right;
+                    text-decoration: none;
+                    font-size: 12px;
+
+
+                    a {
+                        color: darkred;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+
+                        }
+                    }
                 }
+
                 p {
                     font-size: 12px;
 
@@ -110,7 +125,7 @@ div#container {
 
         }
     }
-
+    }
     footer {
         background-color: darkolivegreen;
         color: white;
@@ -120,5 +135,5 @@ div#container {
         padding: 8px;
     }
 
-}
+
 
